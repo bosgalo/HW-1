@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FormsForInput</title>
+</head>
+<body>
+<h2>Profile edit page</h2>
+<form action='action.php' method='post' name='form1'>
+  <fieldset>
+    <legend>Basic Into</legend>
+    <p>id <input type="number"></p>
+    <p>First Name <input type="text"></p>
+    <p>Lost Name <input type="text"></p>
+    <p>Password <input type="password"></p>
+    <p>Phone <input type="tel"></p>
+    <p>Email <input type="email"></p>
+    <p><input type="checkbox">Keep my email address private
+      <br>
+      We`ll remove your public profile email and use<br>
+      19783331+username@users.noreply.localhost
+    </p>
+    <p>DOB <input type="date"></p>
+    <p>Blog url <input type="url"></p>
+    <p>About me <input type="textarea"></p>
+    <p>Profile picture <input type="file" value="file"></p>
+  </fieldset>
+  <fieldset>
+    <legend>Profile info</legend>
+    <p>Desire to study <input type="range"></p>
+    <p>Experience <input type="number">years</p>
+
+    <p>Developer Experience</p>
+    <p><input type="radio" id="contactChoice1"
+              name="level" value="learning">
+      <label for="contactChoice1">learning to program</label></p>
+
+    <p><input type="radio" id="contactChoice2"
+              name="level" value="junior">
+      <label for="contactChoice2">junior developer</label></p>
+
+    <p><input type="radio" id="contactChoice3"
+              name="level" value="mid-level">
+      <label for="contactChoice3">mid-level developer</label></p>
+
+    <p><input type="radio" id="contactChoice4"
+              name="level" value="senior">
+      <label for="contactChoice2">senior</label></p>
+
+    <p>Country
+      <select>
+        <option disabled>choose your country</option>
+        <option value="USA">USA</option>
+        <option value="Ukrain">Ukrain</option>
+        <option value="Poland">Poland</option>
+      </select></p>
+    <p>Skills:<br>
+      <input type="checkbox" name="1" value="HTML"> HTML <br>
+      <input type="checkbox" name="2" value="CSS"> CSS <br>
+      <input type="checkbox" name="3" value="JavaScript"> JavaScript <br>
+      <input type="checkbox" name="4" value="R"> R <br>
+      <input type="checkbox" name="4" value="Scala"> Scala <br>
+      <input type="checkbox" name="4" value="Haskell"> Haskell <br>
+    <p>Hidden <input type="hidden"></p>
+  </fieldset>
+  <input type="reset" value="reset">
+  <input type="submit" value="submit">
+</form>
+
+
+</body>
+</html>
